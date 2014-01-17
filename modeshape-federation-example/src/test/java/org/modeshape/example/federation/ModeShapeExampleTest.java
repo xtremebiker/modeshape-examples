@@ -50,6 +50,10 @@ public class ModeShapeExampleTest {
 
 	static ModeShapeEngine engine;
 
+	/**
+	 * Check out this folder is already created in the FS! Otherwise an
+	 * exception will be thrown
+	 */
 	private static final String MODESHAPE_REPO_PATH = "/modeshape-repository";
 
 	private static void createFile(File parent, String path) throws Exception {
