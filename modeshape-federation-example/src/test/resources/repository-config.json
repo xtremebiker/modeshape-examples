@@ -16,14 +16,14 @@
         "cacheName" : "persistentRepository",
         "binaryStorage" : {
             "type" : "file",
-            "directory": "target/federation_repository/binaries",
+            "directory": "/modeshape-repository/binaries",
             "minimumBinarySizeInBytes" : 999
         }
     },
     "externalSources" : {
         "target-fs" : {
             "classname" : "filesystem",
-            "directoryPath" : "target/files",
+            "directoryPath" : "/modeshape-repository",
             "extraPropertiesStorage" : "json",
             "cacheTtlSeconds" : 1,
             "projections" : [
